@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // @import "modules/mixin";
 // @import "modules/header";
 // @import "modules/footer";
@@ -8,3 +9,15 @@
 @use "modules/header";
 @use "modules/container";
 @use "modules/footer";
+=======
+// @import "modules/mixin";
+// @import "modules/header";
+// @import "modules/footer";
+// @import "modules/container";
+
+// @import "modules/mixin", "modules/header", "modules/container", "modules/footer";
+
+@use "modules/header";
+@use "modules/container";
+@use "modules/footer";
+>>>>>>> 4502e7f71f90d44eeae98026cf7d88f681e5364e

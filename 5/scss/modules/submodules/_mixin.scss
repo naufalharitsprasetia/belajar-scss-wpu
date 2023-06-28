@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // mixin
 // simple mixin
 @mixin inline-list {
@@ -16,3 +17,23 @@
   align-items: center;
   flex-direction: $direction;
 }
+=======
+// mixin
+// simple mixin
+@mixin inline-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+}
+
+// Arguments pada mixin
+@mixin flex-box($direction: row, $space: center) {
+  display: flex;
+  justify-content: $space;
+  align-items: center;
+  flex-direction: $direction;
+}
+>>>>>>> 4502e7f71f90d44eeae98026cf7d88f681e5364e

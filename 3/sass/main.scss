@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // CSS Variable
 // :root {
 //   --primary-color: #f4f1de;
@@ -34,3 +35,41 @@ $alert: (
 h1 {
   color: map-get($alert, "success");
 }
+=======
+// CSS Variable
+// :root {
+//   --primary-color: #f4f1de;
+//   --secondary-color: #f2ccde;
+//   --text-color: #e07a5f;
+// }
+// body {
+//   background-color: var(--primary-color);
+// }
+// h1 {
+//   color: var(--secondary-color);
+// }
+
+// SASS Variables
+// $primary-color: #40a730;
+// $text-color: #e07a5f;
+// body {
+//   $secondary-color: #f2ccde !global;
+//   background-color: $primary-color;
+// }
+// h1 {
+//   color: $secondary-color;
+// }
+
+// Maps
+// $alert-danger: red;
+// $alert-success: green;
+// $alert-warning: orange;
+$alert: (
+  "danger": red,
+  "success": green,
+  "warning": orange,
+);
+h1 {
+  color: map-get($alert, "success");
+}
+>>>>>>> 4502e7f71f90d44eeae98026cf7d88f681e5364e

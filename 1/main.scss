@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $myColor: salmon;
 header {
   background-color: $myColor;
@@ -8,3 +9,15 @@ header {
     color: $myColor;
   }
 }
+=======
+$myColor: salmon;
+header {
+  background-color: $myColor;
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    color: $myColor;
+  }
+}
+>>>>>>> 4502e7f71f90d44eeae98026cf7d88f681e5364e

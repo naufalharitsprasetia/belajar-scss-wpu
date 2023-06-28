@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @use "submodules/mixin" as m;
 
 .header ul {
@@ -10,3 +11,17 @@
     }
   }
 }
+=======
+@use "submodules/mixin" as m;
+
+.header ul {
+  @include m.inline-list();
+  li {
+    background-color: black;
+    padding: 0.7em;
+    a {
+      color: white;
+    }
+  }
+}
+>>>>>>> 4502e7f71f90d44eeae98026cf7d88f681e5364e

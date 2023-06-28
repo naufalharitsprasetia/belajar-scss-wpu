@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @use "submodules/mixin" as m;
 
 .container {
@@ -13,3 +14,20 @@
     line-height: 60px;
   }
 }
+=======
+@use "submodules/mixin" as m;
+
+.container {
+  @include m.flex-box(row-reverse, space-between);
+  width: 600px;
+  height: 400px;
+  background-color: #eaeaea;
+  .box {
+    width: 60px;
+    height: 60px;
+    background-color: #bada55;
+    text-align: center;
+    line-height: 60px;
+  }
+}
+>>>>>>> 4502e7f71f90d44eeae98026cf7d88f681e5364e
